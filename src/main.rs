@@ -28,7 +28,7 @@ fn main() {
     println!("{} {}", "ELF".on_black().red().bold(), "Hello, world!".bright_purple().bold());
 
     // ELF file to parse
-    let mut f = File::open("test").expect("File not found");  
+    let mut f = File::open("target/debug/elf").expect("File not found");  
 
     // Parse ELF header  
     let elf_header = parse_elf(&mut f);

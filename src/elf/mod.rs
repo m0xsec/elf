@@ -135,8 +135,7 @@ pub fn parse_elf(file: &mut File) -> Result<ELFHeader, String> {
     let e_phnum = u16::from_le_bytes([buffer[52], buffer[53]]);
     let e_shentsize = u16::from_le_bytes([buffer[54], buffer[55]]);
     let e_shnum = u16::from_le_bytes([buffer[56], buffer[57]]);
-    let e_shstrndx = u16::from_le_bytes([buffer[58], buffer[59]]
-    );
+    let e_shstrndx = u16::from_le_bytes([buffer[58], buffer[59]]);
 
     let elf_header = ELFHeader {
         e_ident,

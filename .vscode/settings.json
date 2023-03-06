@@ -1,0 +1,16 @@
+{
+    "cSpell.words": [
+        "ehsize",
+        "filesz",
+        "memsz",
+        "paddr",
+        "phentsize",
+        "phnum",
+        "phoff",
+        "shentsize",
+        "shnum",
+        "shoff",
+        "shstrndx",
+        "vaddr"
+    ]
+}
